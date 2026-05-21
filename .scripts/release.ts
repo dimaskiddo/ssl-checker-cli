@@ -78,36 +78,39 @@ for (const file of filesToBundle) {
   }
 }
 
+// Extract version string (strip leading 'v' if present)
+const version = gitTag.startsWith("v") ? gitTag.slice(1) : gitTag;
+
 // Archive configuration mapping (zipped for maximum platform compatibility)
 const targets = [
   {
     binary: "ssl-checker-linux-64-bit",
-    archive: "ssl-checker-linux-64-bit.zip",
+    archive: `ssl-checker_${version}_linux_64-bit.zip`,
     binName: "ssl-checker"
   },
   {
     binary: "ssl-checker-linux-arm64",
-    archive: "ssl-checker-linux-arm64.zip",
+    archive: `ssl-checker_${version}_linux_arm-64-bit.zip`,
     binName: "ssl-checker"
   },
   {
     binary: "ssl-checker-macos-64-bit",
-    archive: "ssl-checker-macos-64-bit.zip",
+    archive: `ssl-checker_${version}_macos_64-bit.zip`,
     binName: "ssl-checker"
   },
   {
     binary: "ssl-checker-macos-arm64",
-    archive: "ssl-checker-macos-arm64.zip",
+    archive: `ssl-checker_${version}_macos_arm-64-bit.zip`,
     binName: "ssl-checker"
   },
   {
     binary: "ssl-checker-windows-64-bit.exe",
-    archive: "ssl-checker-windows-64-bit.zip",
+    archive: `ssl-checker_${version}_windows_64-bit.zip`,
     binName: "ssl-checker.exe"
   },
   {
     binary: "ssl-checker-windows-arm64.exe",
-    archive: "ssl-checker-windows-arm64.zip",
+    archive: `ssl-checker_${version}_windows_arm-64-bit.zip`,
     binName: "ssl-checker.exe"
   }
 ];
