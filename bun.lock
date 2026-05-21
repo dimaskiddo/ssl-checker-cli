@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "telkom_co_id",
+      "name": "ssl-checker-cli",
       "devDependencies": {
         "@types/bun": "latest",
       },
