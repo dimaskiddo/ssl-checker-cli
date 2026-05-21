@@ -61,7 +61,7 @@ chmod +x ssl-checker-linux-64-bit
 #### 🪟 **Windows**
 *(Run from an Administrator Command Prompt or PowerShell)*
 ```powershell
-.\ssl-checker-win-64-bit.exe domain.txt
+.\ssl-checker-windows-64-bit.exe domain.txt
 ```
 
 ### 🏗️ **Build From Source**
