@@ -21,7 +21,7 @@ This utility utilizes low-level Node TLS connection sockets to probe endpoints, 
     *   `❌ ERROR` — Connection failed (DNS issues, port blocked, offline host).
     *   `⏱️ TIMEOUT` — Connection timed out (default: **5-second** limit, customizable via env).
 *   **⚙️ Configuration & Env Tweak:** Native support for loading parameters from environment variables (`.env`) for extreme configurability.
-*   **📦 Standalone Compilations:** Packaged and optimized into self-contained binaries for 64-bit Linux, macOS, and Windows targets.
+*   **📦 Standalone Compilations:** Packaged and optimized into self-contained binaries for Linux, macOS, and Windows (supporting both 64-bit and ARM64 architectures).
 *   **💨 Memory Footprint Optimization:** Compiled with `--smol` optimization for aggressive garbage collection and minimal memory usage in lightweight environments.
 
 ---

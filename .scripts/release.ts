@@ -104,6 +104,11 @@ const targets = [
     binary: "ssl-checker-windows-64-bit.exe",
     archive: "ssl-checker-windows-64-bit.zip",
     binName: "ssl-checker.exe"
+  },
+  {
+    binary: "ssl-checker-windows-arm64.exe",
+    archive: "ssl-checker-windows-arm64.zip",
+    binName: "ssl-checker.exe"
   }
 ];
 
