@@ -52,16 +52,16 @@ You can run these standalone binaries immediately without having any dependencie
 #### 🐧 **Linux / 🍎 macOS**
 ```bash
 # Give it execution power
-chmod +x ssl-checker-linux-64-bit
+chmod +x ssl-checker
 
 # Run the auditor
-./ssl-checker-linux-64-bit domain.txt
+./ssl-checker domain.txt
 ```
 
 #### 🪟 **Windows**
 *(Run from an Administrator Command Prompt or PowerShell)*
 ```powershell
-.\ssl-checker-windows-64-bit.exe domain.txt
+.\ssl-checker.exe domain.txt
 ```
 
 ### 🏗️ **Build From Source**
