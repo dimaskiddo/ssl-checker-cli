@@ -38,7 +38,11 @@ This utility utilizes low-level Node TLS connection sockets to probe endpoints, 
 
 ### 📦 **Using Pre-Built Binaries**
 
-You can run a pre-compiled standalone binary for your platform immediately without having any dependencies (including Bun or Node) installed on your system.
+Pre-compiled standalone binaries for all supported platforms are available on the GitHub Release page:
+
+👉 **[Download Pre-Built Binaries](https://github.com/dimaskiddo/ssl-checker-cli/releases)**
+
+You can run these standalone binaries immediately without having any dependencies (including Bun or Node) installed on your system.
 
 > [!NOTE]
 > **Architecture Compatibility**: Bun is exclusively a high-performance **64-bit runtime**, which means compiling to 32-bit (x86) targets is not supported. All generated binaries are built for 64-bit architectures.
